@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  EFCoreSqlServer:
+    image:  ${DOCKER_REGISTRY}productswebapi
+    build:
+      context: .
+      dockerfile: EFCoreSqlServer/Dockerfile
+    depends_on:
+      - sqlserver
+  
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    hostname: 'sqlserver'
+    environment:
+      ACCEPT_EULA: 'Y'
+      SA_PASSWORD: "Numsey#2021"
+    volumes:
+      - c:\dados\volumes\mssql:/var/opt/mssql3
+    ports:
+      - '11433:1433'    
+    expose:
+      - 1433

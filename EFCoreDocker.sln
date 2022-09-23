@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreSqlServer", "EFCoreSqlServer\EFCoreSqlServer.csproj", "{3E20CCB2-309D-40D3-8633-675C0A3967A7}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{AA66BE78-CC3B-430D-995D-A6AA9E5589BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E20CCB2-309D-40D3-8633-675C0A3967A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E20CCB2-309D-40D3-8633-675C0A3967A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E20CCB2-309D-40D3-8633-675C0A3967A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E20CCB2-309D-40D3-8633-675C0A3967A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA66BE78-CC3B-430D-995D-A6AA9E5589BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA66BE78-CC3B-430D-995D-A6AA9E5589BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA66BE78-CC3B-430D-995D-A6AA9E5589BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA66BE78-CC3B-430D-995D-A6AA9E5589BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2CA00F54-109F-4E49-81D7-23619222A2CE}
+	EndGlobalSection
+EndGlobal
